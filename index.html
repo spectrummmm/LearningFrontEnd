@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
+    </script>
+   
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+   
+   
+  <div class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasLabel"></h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <img src="data:image/jpeg;base64,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" class="card-img-top"  alt="...">
+      Я В ШОКЕ ВСЕ ЭТО ВРЕМЯ ОТВЕТ БЫЛ ТАК БЛИЗКО!
+      РАСКРЫТА СТРАШНАЯ ТАЙНА ПУТИНА! ЕГО ДОЧЬ Е........<p>
+      <a href="https://pnrtscr.com/sggd6wven">Читать далее.. 
+
+      </a>
+    </p>
+    </div>
+  </div>
+   
+   
+   <table class="table table-dark table-striped">
+        <thead>
+            <tr>
+
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+                <th scope="col">instagram</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>@muduck</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td> <button type="button" class="btn btn-light">Dark</button></td>
+
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+                <td>@dumbass</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="row g-3 align-items-center">
+        <div class="col-auto">
+            <label for="inputPassword6" class="col-form-label">Password</label>
+        </div>
+        <div class="col-auto">
+            <input type="password" id="inputPassword6" class="form-control" aria-labelledby="passwordHelpInline">
+        </div>
+        <div class="col-auto">
+            <span id="passwordHelpInline" class="form-text">
+                Must be 8-20 characters long.
+            </span>
+        </div>
+    </div>
+
+     <div class="card" style="width: 18rem;">
+        <img src="https://media.istockphoto.com/id/912299634/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BA%D0%BE%D0%BD%D1%86%D0%B5%D0%BF%D1%86%D0%B8%D1%8F-%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%BE%D0%B9-%D0%BF%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%BE%D1%81%D1%82%D0%B8.jpg?s=612x612&w=0&k=20&c=Gq_59L6BS45A3yUFBBNTWW7h-EmKbLmaWwM-RWG8i5A=" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">СТАНЬ ХАКЕРОМ</h5>
+          <p class="card-text">Занятия по программированию 1000р/10 минут. Преподает легендарный Стив Джобс</p>
+          <a href="https://www.consultant.ru/document/cons_doc_LAW_10699/a4d58c1af8677d94b4fc8987c71b131f10476a76/" class="btn btn-primary">Вкатиться
+          </a>
+        </div>
+      </div>
+</body>
+
+</html>
