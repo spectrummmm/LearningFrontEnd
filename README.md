@@ -25,7 +25,8 @@
 <p>
 <a href="https://spectrummmm.github.io/bebropage">Собственно мой рофло-сайтик</a>
   </p>
+
 ## Контакты
 - VK : [Трикин Максим](https://vk.com/causeimanikeboy)
-- [Telegram](https://t.me/nihuyasebebigboy)
+- [Telegram](https://t.me/nihuya_sebe_bigboy)
 - Почтовый ящик : max3kin24@mail.ru
